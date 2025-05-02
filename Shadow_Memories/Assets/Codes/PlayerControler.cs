@@ -25,11 +25,18 @@ public class PlayerController : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y); // corregido: 'linearVelocity' no existe
 
-        // Girar sprite a izquierda/derecha
+       // Girar sprite a izquierda/derecha
+      // Girar personaje con todos sus hijos sin afectar el movimiento
         if (moveX < 0)
-            spriteRenderer.flipX = true;
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0); // Mira a la izquierda
+        }
         else if (moveX > 0)
-            spriteRenderer.flipX = false;
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);   // Mira a la derecha
+        }
+
+
 
         // Salto
         if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
