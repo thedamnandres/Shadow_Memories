@@ -1,0 +1,1099 @@
+fileFormatVersion: 2
+guid: cd58961f7d1974c14a6650d6155a870c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3727231013421076503
+    second: Lantern 3 - Bronze  and Orange_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b1b033de3c4fa1b3deee736087faf
+      internalID: 942242191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6c496d3e1b94f60a959786a94ee887
+      internalID: -1594537355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b697229e0244e4a328145a490c54ad7b
+      internalID: -1464843315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd0e99f8143b4debbbef90e54329370
+      internalID: -654388065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646d5d073b5ba47999af054d7c561f1d
+      internalID: 1447152327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e0d2d01e9974daba41a7528d325393
+      internalID: 959713044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092f3fc691824419787382a9c4abdfcc
+      internalID: 2062381894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d4b55eeb0f4540972f53b1c3aaeed
+      internalID: -1495097807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf62943d516a3432996b38717d525737
+      internalID: -1336401221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4195f24c60741d1888f53974e192e8
+      internalID: 696497208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c628f25996c2495d83ebc8f00e17eae
+      internalID: -666131473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be0f5856791a4e9e9282091104bfca8
+      internalID: -129029924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0e7bf2a39f4a71b057bac0ea5f2bb
+      internalID: -754175358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 206
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9677252fc2c8141cf899e8e0d2caeca5
+      internalID: -539694705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dd03ecfe3cc467eac969ddab3a1ebb
+      internalID: -1721608780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92605b6aa6a074b19bee3492c72aeeb8
+      internalID: -608500930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548bc87164b424ac88b6b4602fdef5d3
+      internalID: -105148155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc60c9d53843242449744adf94126c3e
+      internalID: 998611021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e834c4f616b1b43d9a62c1ad780ea557
+      internalID: -1444659491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c4321b9d5bd4177af30244f62ecddb
+      internalID: -2082062128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c55aa034c0341b88985ccbcc378e6d
+      internalID: 199895874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462faf6fb5ca74e579dbe6120e6d53d7
+      internalID: 1589960676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866df610dc5a4e2d8b807dccaf9233f
+      internalID: 216044732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a9c3856c4a34be29b8a8ee5144bbd4
+      internalID: -1469367368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8be0a4ba04c74c0bbf68d6d01394bcc
+      internalID: -647705182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6a8030b23e04e44b431b9414e5debe
+      internalID: 438600543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc3086447637421fbb8dfb7217c5e49
+      internalID: -1544929135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 106
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa3798a2fe984eb9a2bcbd1d665f27e
+      internalID: 1575748926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2df68ddd9ed45d986f9ac6f5339665
+      internalID: 1778505247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b532ccd9e6c52486189224c5488091d4
+      internalID: 424526088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313cf13efd2d143f7bf32dfc7d1a1108
+      internalID: 46480228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34778f530e4e74cb2aadaa07308bfdd7
+      internalID: -873677402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86a604de43c54006bc5218d9d451a43
+      internalID: 53882895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbf8dc2dfc28430fb7da301affcebe2
+      internalID: -1122227109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 56
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f0607c6a40c41dda10011a40bae621
+      internalID: -1674357677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042d58eddfe6c4ffdb793f9b52c22afa
+      internalID: -326348431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad335cf04a22d4e7a8f9c6f1cbde2316
+      internalID: 1704294552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735e4d5a8f01a40e592e9e0d363d8641
+      internalID: -106011783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfa82b44edf4494696a8da55424cfdd
+      internalID: 123617763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12905549d54684d10b9048b5dcef037a
+      internalID: 1377271501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de627794a9e4621b381fa4b8631673
+      internalID: -1508909453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern 3 - Bronze  and Orange_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 6
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.459343, y: 0.9683673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66013d7ef4704c29a932b53f0771fa2
+      internalID: 2035218741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6d7997bff59404fcebe5a91a97f93dc9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lantern 3 - Bronze  and Orange_0: 942242191
+      Lantern 3 - Bronze  and Orange_1: -1594537355
+      Lantern 3 - Bronze  and Orange_10: -666131473
+      Lantern 3 - Bronze  and Orange_11: -129029924
+      Lantern 3 - Bronze  and Orange_12: -754175358
+      Lantern 3 - Bronze  and Orange_13: -539694705
+      Lantern 3 - Bronze  and Orange_14: -1721608780
+      Lantern 3 - Bronze  and Orange_15: -608500930
+      Lantern 3 - Bronze  and Orange_16: -105148155
+      Lantern 3 - Bronze  and Orange_17: 998611021
+      Lantern 3 - Bronze  and Orange_18: -1444659491
+      Lantern 3 - Bronze  and Orange_19: -2082062128
+      Lantern 3 - Bronze  and Orange_2: -1464843315
+      Lantern 3 - Bronze  and Orange_20: 199895874
+      Lantern 3 - Bronze  and Orange_21: 1589960676
+      Lantern 3 - Bronze  and Orange_22: 216044732
+      Lantern 3 - Bronze  and Orange_23: -1469367368
+      Lantern 3 - Bronze  and Orange_24: -647705182
+      Lantern 3 - Bronze  and Orange_25: 438600543
+      Lantern 3 - Bronze  and Orange_26: -1544929135
+      Lantern 3 - Bronze  and Orange_27: 1575748926
+      Lantern 3 - Bronze  and Orange_28: 1778505247
+      Lantern 3 - Bronze  and Orange_29: 424526088
+      Lantern 3 - Bronze  and Orange_3: -654388065
+      Lantern 3 - Bronze  and Orange_30: 46480228
+      Lantern 3 - Bronze  and Orange_31: -873677402
+      Lantern 3 - Bronze  and Orange_32: 53882895
+      Lantern 3 - Bronze  and Orange_33: -1122227109
+      Lantern 3 - Bronze  and Orange_34: -1674357677
+      Lantern 3 - Bronze  and Orange_35: -326348431
+      Lantern 3 - Bronze  and Orange_36: 1704294552
+      Lantern 3 - Bronze  and Orange_37: -106011783
+      Lantern 3 - Bronze  and Orange_38: 123617763
+      Lantern 3 - Bronze  and Orange_39: 1377271501
+      Lantern 3 - Bronze  and Orange_4: 1447152327
+      Lantern 3 - Bronze  and Orange_40: -1508909453
+      Lantern 3 - Bronze  and Orange_41: 2035218741
+      Lantern 3 - Bronze  and Orange_5: 959713044
+      Lantern 3 - Bronze  and Orange_6: 2062381894
+      Lantern 3 - Bronze  and Orange_7: -1495097807
+      Lantern 3 - Bronze  and Orange_8: -1336401221
+      Lantern 3 - Bronze  and Orange_9: 696497208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

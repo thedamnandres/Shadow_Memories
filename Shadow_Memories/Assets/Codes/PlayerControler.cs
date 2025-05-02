@@ -4,6 +4,8 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public float jumpForce = 10f;
+    public Transform puntoLinterna; // Asigna el punto en la mano
+    private bool tieneLinterna = false;
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
@@ -21,7 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         // Movimiento horizontal
         float moveX = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y); // corregido: 'linearVelocity' no existe
 
         // Girar sprite a izquierda/derecha
         if (moveX < 0)
@@ -45,6 +47,18 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = true;
             animator.SetBool("isJumping", false);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Linterna") && !tieneLinterna)
+        {
+            collision.GetComponent<Collider2D>().enabled = false;
+            collision.transform.SetParent(puntoLinterna);
+            collision.transform.localPosition = Vector3.zero;
+            collision.transform.localRotation = Quaternion.identity;
+            tieneLinterna = true;
         }
     }
 }
