@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public float jumpForce = 10f;
-    public Transform puntoLinterna; // Asigna el punto en la mano
+    public Transform puntoLinterna;
     private bool tieneLinterna = false;
 
     private Rigidbody2D rb;
@@ -23,20 +23,20 @@ public class PlayerController : MonoBehaviour
     {
         // Movimiento horizontal
         float moveX = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y); // corregido: 'linearVelocity' no existe
+        rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y);
 
-       // Girar sprite a izquierda/derecha
-      // Girar personaje con todos sus hijos sin afectar el movimiento
+        // Activar/desactivar animación de caminar
+        animator.SetBool("isWalking", moveX != 0);
+
+        // Girar personaje con todos sus hijos sin afectar el movimiento
         if (moveX < 0)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0); // Mira a la izquierda
+            transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if (moveX > 0)
         {
-            transform.rotation = Quaternion.Euler(0, 0, 0);   // Mira a la derecha
+            transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-
-
 
         // Salto
         if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
@@ -49,7 +49,6 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Detecta si el personaje aterriza en el suelo
         if (collision.contacts[0].normal.y > 0.5f)
         {
             isGrounded = true;
@@ -57,15 +56,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+  void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.CompareTag("Enemigo"))
     {
-        if (collision.CompareTag("Linterna") && !tieneLinterna)
-        {
-            collision.GetComponent<Collider2D>().enabled = false;
-            collision.transform.SetParent(puntoLinterna);
-            collision.transform.localPosition = Vector3.zero;
-            collision.transform.localRotation = Quaternion.identity;
-            tieneLinterna = true;
-        }
+        // Desactiva al personaje (o destrúyelo)
+        gameObject.SetActive(false);
+
+        // También podrías usar Destroy(gameObject); si deseas eliminarlo completamente
     }
+
+    if (collision.CompareTag("Linterna") && !tieneLinterna)
+    {
+        collision.GetComponent<Collider2D>().enabled = false;
+        collision.transform.SetParent(puntoLinterna);
+        collision.transform.localPosition = Vector3.zero;
+        collision.transform.localRotation = Quaternion.identity;
+        tieneLinterna = true;
+    }
+}
+
+
+
+    
 }
