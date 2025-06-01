@@ -2,6 +2,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public int vidaMaxima = 100;
+    private int vidaActual;
+    private bool esInvulnerable = false;
+    public float tiempoInvulnerabilidad = 1.0f;
+
     public float speed = 5f;
     public float jumpForce = 10f;
     public Transform puntoLinterna;
@@ -17,6 +23,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        vidaActual = vidaMaxima;
     }
 
     void Update()
@@ -56,27 +63,73 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-  void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.CompareTag("Enemigo"))
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        // Desactiva al personaje (o destrúyelo)
+        if (collision.CompareTag("Enemigo"))
+        {
+            RecibirDano(20); // Cambia el número si quieres más o menos daño
+        }
+
+        if (collision.CompareTag("Linterna") && !tieneLinterna)
+        {
+            collision.GetComponent<Collider2D>().enabled = false;
+            collision.transform.SetParent(puntoLinterna);
+            collision.transform.localPosition = Vector3.zero;
+            collision.transform.localRotation = Quaternion.identity;
+            tieneLinterna = true;
+        }
+    }
+
+
+    public bool TieneLinterna()
+    {
+        return tieneLinterna;
+    }
+
+    public void RecibirDano(int cantidad)
+    {
+        if (esInvulnerable) return;
+
+        vidaActual -= cantidad;
+        Debug.Log("Vida actual: " + vidaActual);
+
+        if (vidaActual <= 0)
+        {
+            Morir();
+        }
+        else
+        {
+            StartCoroutine(InvulnerabilidadTemporal());
+        }
+    }
+
+    private void Morir()
+    {
+        Debug.Log("Jugador muerto");
+
+        // Desactiva el personaje visualmente
         gameObject.SetActive(false);
 
-        // También podrías usar Destroy(gameObject); si deseas eliminarlo completamente
+        // Luego muestra el menú Game Over
+        FindObjectOfType<GameOverManager>().ActivarGameOver();
     }
 
-    if (collision.CompareTag("Linterna") && !tieneLinterna)
+
+    private System.Collections.IEnumerator InvulnerabilidadTemporal()
     {
-        collision.GetComponent<Collider2D>().enabled = false;
-        collision.transform.SetParent(puntoLinterna);
-        collision.transform.localPosition = Vector3.zero;
-        collision.transform.localRotation = Quaternion.identity;
-        tieneLinterna = true;
+        esInvulnerable = true;
+        for (int i = 0; i < 5; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.1f);
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(0.1f);
+        }
+        esInvulnerable = false;
     }
-}
 
 
 
-    
+
+
 }

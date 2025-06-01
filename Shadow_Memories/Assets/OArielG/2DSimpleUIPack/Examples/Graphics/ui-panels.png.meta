@@ -1,64 +1,32 @@
 fileFormatVersion: 2
-guid: a2cc35f0c494bfe45be624d803dfa590
+guid: c902e08bd83e04947b6e8d7f31f385be
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218050
+  packageName: 2D Simple UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/OArielG/2DSimpleUIPack/Examples/Graphics/ui-panels.png
+  uploadId: 493490
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5464311527559206638
-    second: BolaDeFuego_0
+      213: 2193479657588290036
+    second: ui-frames_0
   - first:
-      213: -6874568294295207105
-    second: BolaDeFuego_1
+      213: -8929440768489705544
+    second: ui-frames_1
   - first:
-      213: 8653136160499265253
-    second: BolaDeFuego_2
+      213: 2631046323181635569
+    second: ui-frames_2
   - first:
-      213: 3370900025517816672
-    second: BolaDeFuego_3
+      213: 2976135448196196091
+    second: ui-frames_3
   - first:
-      213: -8502386873578170939
-    second: BolaDeFuego_4
+      213: 4921545448054487618
+    second: ui-frames_4
   - first:
-      213: -6634913485084619002
-    second: BolaDeFuego_5
-  - first:
-      213: 4311064514562546982
-    second: BolaDeFuego_6
-  - first:
-      213: 7357965332213827359
-    second: BolaDeFuego_7
-  - first:
-      213: 438710895876901144
-    second: BolaDeFuego_8
-  - first:
-      213: -6544890715301486309
-    second: BolaDeFuego_9
-  - first:
-      213: -6648163645857788293
-    second: BolaDeFuego_10
-  - first:
-      213: 588908524009760999
-    second: BolaDeFuego_11
-  - first:
-      213: 4765414423897056036
-    second: BolaDeFuego_12
-  - first:
-      213: 3605461234400935200
-    second: BolaDeFuego_13
-  - first:
-      213: 1319971935932750474
-    second: BolaDeFuego_14
-  - first:
-      213: -3545915529408416926
-    second: BolaDeFuego_15
-  - first:
-      213: -7188567160710534892
-    second: BolaDeFuego_16
-  - first:
-      213: 7427384646756397189
-    second: BolaDeFuego_17
-  - first:
-      213: -8801222014943399497
-    second: BolaDeFuego_18
+      213: 5136199020975286519
+    second: ui-frames_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -91,7 +59,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,14 +90,14 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,10 +107,23 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,111 +135,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BolaDeFuego_0
+      name: ui-frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f17894802ec07e10800000000000000
+      internalID: 2193479657588290036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfa7476ee0441480800000000000000
+      internalID: -8929440768489705544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 1, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7c6d8e0ba538420800000000000000
+      internalID: 2631046323181635569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee4ef76fd04e89419aed8cee232a47d
-      internalID: -353291369
+      spriteID: bf6ae210c6b5d4920800000000000000
+      internalID: 2976135448196196091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BolaDeFuego_1
+      name: ui-frames_4
       rect:
         serializedVersion: 2
-        x: 300
+        x: 32
         y: 0
-        width: 300
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d46198c7214c4b4282568691178ace4
-      internalID: 457518039
+      spriteID: 24a7a317287dc4440800000000000000
+      internalID: 4921545448054487618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BolaDeFuego_2
+      name: ui-frames_5
       rect:
         serializedVersion: 2
-        x: 600
+        x: 64
         y: 0
-        width: 300
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf7f62af250386408da1ab7b51645cb
-      internalID: 1664745166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BolaDeFuego_3
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 870d623930f17024cb94b15a44bdcd52
-      internalID: 359984067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BolaDeFuego_4
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 448cd2036ea5a514693ab0937cad0f57
-      internalID: 557361675
+      spriteID: 7f8e0fcfbc1774740800000000000000
+      internalID: 5136199020975286519
       vertices: []
       indices: 
       edges: []
@@ -267,7 +270,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b294262e77ae47241816d2f687ad0568
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -277,11 +280,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BolaDeFuego_0: -353291369
-      BolaDeFuego_1: 457518039
-      BolaDeFuego_2: 1664745166
-      BolaDeFuego_3: 359984067
-      BolaDeFuego_4: 557361675
+      ui-frames_0: 2193479657588290036
+      ui-frames_1: -8929440768489705544
+      ui-frames_2: 2631046323181635569
+      ui-frames_3: 2976135448196196091
+      ui-frames_4: 4921545448054487618
+      ui-frames_5: 5136199020975286519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
