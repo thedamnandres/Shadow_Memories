@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Salto
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
@@ -77,6 +77,8 @@ public class PlayerController : MonoBehaviour
             collision.transform.localPosition = Vector3.zero;
             collision.transform.localRotation = Quaternion.identity;
             tieneLinterna = true;
+            PlayerPrefs.SetInt("TieneLinterna", 1); // 1 significa true
+
         }
     }
 
@@ -127,9 +129,4 @@ public class PlayerController : MonoBehaviour
         }
         esInvulnerable = false;
     }
-
-
-
-
-
 }
