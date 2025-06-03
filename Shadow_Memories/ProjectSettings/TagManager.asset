@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Linterna
   - Enemigo
+  - Cofre
+  - Llave
+  - Puerta
+  - Player1
   layers:
   - Default
   - TransparentFX
@@ -14,12 +18,12 @@ TagManager:
   - Water
   - UI
   - Enemigo
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pacman
+  - Ghost
+  - Pallet
+  - Obstacle
+  - Node
+  - Player
   - 
   - 
   - 

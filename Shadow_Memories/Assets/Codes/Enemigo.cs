@@ -4,8 +4,29 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     [SerializeField] private float vida = 100f;
-
     [SerializeField] private GameObject efectoMuerte;
+    [SerializeField] private float velocidad = 2f;
+
+    private Transform jugador;
+
+    private void Start()
+    {
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            jugador = playerObj.transform;
+        }
+    }
+
+    private void Update()
+    {
+        if (jugador != null)
+        {
+            // Mover el enemigo hacia el jugador
+            Vector3 direccion = (jugador.position - transform.position).normalized;
+            transform.position += direccion * velocidad * Time.deltaTime;
+        }
+    }
 
     public void TomarDanio(float danio)
     {
@@ -21,28 +42,23 @@ public class Enemigo : MonoBehaviour
     {
         if (efectoMuerte != null)
         {
-            // Instancia el efecto de muerte
             GameObject efecto = Instantiate(efectoMuerte, transform.position, Quaternion.identity);
-
-            // Destruye el efecto después de 2 segundos
             Destroy(efecto, 0.5f);
         }
 
-        // Destruye el enemigo
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (efectoMuerte != null)
+            if (collision.CompareTag("Player"))
             {
-                GameObject efecto = Instantiate(efectoMuerte, transform.position, Quaternion.identity);
-                Destroy(efecto, 2f);
+                // Solo le baja 10 de vida al enemigo
+                TomarDanio(10f);
             }
-
-            Destroy(gameObject);
         }
-    }
+
+    
+
+
 }
