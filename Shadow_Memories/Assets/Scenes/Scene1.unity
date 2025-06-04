@@ -12486,11 +12486,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7378238203039167632, guid: 534590b4bd3675c4c9dddc38bccff5e8, type: 3}
       propertyPath: m_Size.x
-      value: 2.8135567
+      value: 1.0491638
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378238203039167632, guid: 534590b4bd3675c4c9dddc38bccff5e8, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1188692
       objectReference: {fileID: 0}
     - target: {fileID: 7378238203039167632, guid: 534590b4bd3675c4c9dddc38bccff5e8, type: 3}
       propertyPath: m_Offset.x
-      value: -5.159718
+      value: -4.2775226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378238203039167632, guid: 534590b4bd3675c4c9dddc38bccff5e8, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5654442
       objectReference: {fileID: 0}
     - target: {fileID: 7378238203039167632, guid: 534590b4bd3675c4c9dddc38bccff5e8, type: 3}
       propertyPath: m_IsTrigger
@@ -13949,7 +13957,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0d82a120abb1be2469320d8bec0b1332, type: 3}
   m_Resource: {fileID: 8300000, guid: 0d82a120abb1be2469320d8bec0b1332, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.523
   m_Pitch: 0.8
   Loop: 1
   Mute: 0
@@ -13957,7 +13965,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 24.69248
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

@@ -9,6 +9,8 @@ public class Enemigo : MonoBehaviour
 
     private Transform jugador;
 
+    public EnemigoSpawnea spawner; // Aquí está el cambio: usamos el nombre correcto de la clase
+
     private void Start()
     {
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -22,7 +24,6 @@ public class Enemigo : MonoBehaviour
     {
         if (jugador != null)
         {
-            // Mover el enemigo hacia el jugador
             Vector3 direccion = (jugador.position - transform.position).normalized;
             transform.position += direccion * velocidad * Time.deltaTime;
         }
@@ -46,19 +47,19 @@ public class Enemigo : MonoBehaviour
             Destroy(efecto, 0.5f);
         }
 
+        if (spawner != null)
+        {
+            spawner.ProgramarRespawn();
+        }
+
         Destroy(gameObject);
     }
 
-        private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
         {
-            if (collision.CompareTag("Player"))
-            {
-                // Solo le baja 10 de vida al enemigo
-                TomarDanio(10f);
-            }
+            TomarDanio(10f);
         }
-
-    
-
-
+    }
 }
