@@ -26,6 +26,18 @@ public class Enemigo : MonoBehaviour
         {
             Vector3 direccion = (jugador.position - transform.position).normalized;
             transform.position += direccion * velocidad * Time.deltaTime;
+
+            // Girar el sprite según la dirección del jugador
+            if (jugador.position.x < transform.position.x)
+            {
+                // Mirar a la izquierda (rotar 180° en Y)
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                // Mirar a la derecha (rotar 0° en Y)
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
         }
     }
 
